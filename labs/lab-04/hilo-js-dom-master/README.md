@@ -1,0 +1,2 @@
+# Reflections
+I think that this lab was really helpful and although I had some trouble finishing the lab at some point. I guess I lost some attention at some point or what not, but turning the buttons into images was just an issue from not deleting previous code and a typo (programmer canon event). Asides from that little setback, I think that this lab was helpful with more frontend developement like the other labs. 
