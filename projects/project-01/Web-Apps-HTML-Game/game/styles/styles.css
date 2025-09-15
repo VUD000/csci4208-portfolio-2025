@@ -1,0 +1,678 @@
+/* Scene Backgrounds */
+#background-menu {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    /* Position is fixed relative to viewport */
+    top: 0;                                             /* Shifts item to top most edge of viewport */
+    left: 0;                                            /* Shifts item to left most edge of viewport */
+    width: 100vw;                                       /* Set width to 100% of viewport width */
+    height: 100vh;                                      /* Set height to 100% of viewport height */
+    background-image: url(./../assets/menu-image.png);  /* Background image */
+    background-size: cover;                             /* Scale background image to cover entire parent element */
+    background-position: center center;                 /* Center image in center of page */   
+    background-repeat: no-repeat;                       /* Prevent image repetition */
+    z-index: -1;                                        /* Set this to be in the back */
+}
+
+#background-overworld1 {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/WorldMap1.png);  
+    background-size:contain;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-overworld2 {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/WorldMap2.png);  
+    background-size:contain;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-overworld2 {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/WorldMap2.png);  
+    background-size:contain;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-forest {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/Forest.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-plains {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/Plains.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-valley {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/RockyArea.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-bandit-camp {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/BanditCamp.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-caves {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/Cave.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-tundra {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/Icy.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-desert {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/Desert.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-shop {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/Shop.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+#background-final {           
+    display: grid;
+    place-items: center;                           
+    position: fixed;                                    
+    top: 0;                                             
+    left: 0;                                           
+    width: 100vw;                                       
+    height: 100vh;                                     
+    background-image: url(./../assets/ThroneRoom.png);  
+    background-size:cover;                             
+    background-position: center center;                 
+    background-repeat: no-repeat;    
+    background-color: burlywood;                   
+    z-index: -1;                                        
+}
+
+.modal {
+    width: 30%;
+    height: 60%;
+    background-color: rgb(242, 225, 157);
+    border: 5px solid burlywood;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.center-text-header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 3px solid burlywood;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button styles */
+.large-centered-button{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 98%;                                          /* span full width of parent container */
+    padding: 5% 0px;                                     /* remove horizontal padding, keep vertical */
+    font-size: x-large;
+    white-space: nowrap;                                 /* make text for button on 1 line */
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-decoration: None;
+    color: black;
+    z-index: 2;
+}
+
+.global-button-type {
+    text-align: center;
+    text-justify: center;
+    display: block;
+    margin-top: 5px;
+    width: 15vw;
+    height: 5vh;
+    font-size: x-large;
+    white-space: nowrap;                                 
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-decoration: None;
+    color: black;
+    z-index: 2;
+}
+
+.overworld-button-location {
+    position: absolute;
+    bottom: 1vh;
+    left: 42vw;
+}
+
+.overworld-button-color {
+    background-color: rgb(90, 179, 32);
+}
+
+.overworld2-button-location {
+    position: absolute;
+    bottom: 1vh;
+    left: 42vw;
+}
+
+.overworld2-button-color {
+    background-color: rgb(90, 179, 32);
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.button-color-global {
+    background-color: burlywood;
+}
+
+/* button styles for overworlds */
+.button-area-selector {
+    text-align: center;
+    text-justify: center;
+    display: block;
+    margin-top: 5px;
+    width: 10vw;
+    height: 4vh;
+    font-size: x-large;
+    white-space: nowrap;                                 
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-decoration: None;
+    color: black;
+    z-index: 2;
+}
+#button_worldmap1_forest {
+    position: absolute;
+    bottom: 28vh;
+    right: 42vw;
+}
+#button_worldmap1_plains {
+    position: absolute;
+    bottom: 40vh;
+    right: 50vw;
+}
+#button_worldmap1_valley {
+    position: absolute;
+    bottom: 60vh;
+    right: 42vw;
+}
+#button_worldmap1_home {
+    position: absolute;
+    bottom: 20vh;
+    right: 40vw;
+}
+#button_worldmap1_bandits {
+    position: absolute;
+    bottom: 55vh;
+    right: 54vw;
+}
+
+#button_worldmap2_caves {
+    position: absolute;
+    bottom: 45vh;
+    right: 60vw;
+}
+
+#button_worldmap2_tundra {
+    position: absolute;
+    bottom: 55vh;
+    right: 28vw;
+}
+#button_worldmap2_shop {
+    position: absolute;
+    bottom: 80vh;
+    right: 50vw;
+}
+#button_worldmap2_final {
+    position: absolute;
+    bottom: 18vh;
+    right: 30vw;
+}
+
+#button_worldmap2_desert {
+    position: absolute;
+    bottom: 8vh;
+    right: 42vw;
+}
+
+#how-to-play-text-box {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: center;
+    padding: 5% 0px;
+    font-size: large;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+    z-index: 2;
+}
+
+/* Character model size */
+.main-character-model {
+    width: 2.5vw;
+    height: 5.5vh;
+}
+.villain-character-model {
+    width: 5vw;
+    height: 7vh;
+}
+
+/* Character positioning in intro */
+#intro-character-location {
+    position: absolute;
+    top: 60vh;
+    left: 40vw;
+}
+#intro-friend-location {
+    position: absolute;
+    top: 60vh;
+    right: 40vw
+}
+#intro-villain-location {
+    position: absolute;
+    top: 60vh;
+    right: 35vw;
+}
+
+/* General Text Box */
+.general-text-box {
+    position: absolute;
+    bottom: 10vh;
+    left: 25vw;
+    width: 50vw;
+    height: 15vh;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+    padding: 5px;
+    z-index: 2;
+}
+
+/* Sacrifice shop choice text box*/
+.shop-choice-text-box{
+    position: absolute;
+    bottom: 35vh;
+    left: 0vw;
+    width: 50vw;
+    height: 15vh;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+    padding: 5px;
+    z-index: 2;
+}
+
+/* Ending text box*/
+.ending-text-box{
+    position: absolute;
+    bottom: 35vh;
+    left: 25vw;
+    width: 50vw;
+    height: 15vh;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+    padding: 5px;
+    z-index: 2;
+}
+
+/* General closeup image */
+.closup-image {
+    height: 25vh;
+    width: 15vw;
+    border: 5px solid burlywood;
+    border-radius: 8px;
+    border-width: 10px;
+}
+.main-character-closeup-position {
+    bottom: 5vh;
+    left: 5vw;
+    position: absolute;
+}
+.friend-character-closeup-position {
+    bottom: 5vh;
+    right: 5vw;
+    position: absolute;
+}
+.villain-character-closeup-position {
+    bottom: 35vh;
+    right: 1vw;
+    position: absolute;
+}
+.closeup-image-border-red {
+    border-color: crimson;
+}
+#miniboss-closeup-position {
+    bottom: 35vh;
+    position: absolute;
+}
+
+#boss-closeup-position {
+    bottom: 35vh;
+    position: absolute;
+}
+
+/* Home Cat Locations */
+#home-cat-1 {
+    position: absolute;
+    top: 30vh;
+    left: 20vw;
+}
+#home-cat-2 {
+    position: absolute;
+    top: 38vh;
+    right: 33.5vw;
+}
+#home-cat-3 {
+    position: absolute;
+    bottom: 25vh;
+    left: 45vw;
+}
+
+/* Forest Cat Locations */
+#forest-cat-1 {
+    position: absolute;
+    top: 60vh;
+    left: 20vw;
+}
+#forest-cat-2 {
+    position: absolute;
+    top: 42vh;
+    right: 38.7vw;
+}
+#forest-cat-3 {
+    position: absolute;
+    bottom: 23vh;
+    left: 40vw;
+}
+
+/* Plains Cat Locations */
+#plains-cat-1 {
+    position: absolute;
+    top: 30vh;
+    left: 12vw;
+}
+#plains-cat-2 {
+    position: absolute;
+    top: 70vh;
+    right: 20vw;
+}
+#plains-cat-3 {
+    position: absolute;
+    top: 10vh;
+    right: 15vw;
+}
+
+/* Valley Cat Locations */
+#valley-cat-1 {
+    position: absolute;
+    bottom: 25vh;
+    left: 25vw;
+}
+#valley-cat-2 {
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
+}
+#valley-cat-3 {
+    position: absolute;
+    top: 70vh;
+    right: 50vw;
+}
+
+/* Cave Cat Locations */
+#cave-cat-1 {
+    position: absolute;
+    bottom: 32vh;
+    left: 63vw;
+}
+#cave-cat-2 {
+    position: absolute;
+    top: 68vh;
+    left: 50vw;
+}
+#cave-cat-3 {
+    position: absolute;
+    top: 38vh;
+    right: 82vw;
+}
+
+/* Tundra Cat Locations */
+#tundra-cat-1 {
+    position: absolute;
+    top: 25vh;
+    left: 12vw;
+}
+#tundra-cat-2 {
+    position: absolute;
+    top: 70vh;
+    right: 21vw;
+}
+#tundra-cat-3 {
+    position: absolute;
+    top: 10vh;
+    right: 15vw;
+}
+
+/* Desert Cat Locations */
+#desert-cat-1 {
+    position: absolute;
+    top: 60vh;
+    left: 20vw;
+}
+#desert-cat-2 {
+    position: absolute;
+    top: 48vh;
+    right: 30vw;
+}
+#desert-cat-3 {
+    position: absolute;
+    bottom: 77vh;
+    left: 39vw;
+}
+
+/* Audio Button */
+.audio-button-main-menu {
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+}
+.audio-button-general {
+    position: absolute;
+    bottom: 1vh;
+    left: 1vw;
+}
+
+/* i-frame location */
+.iframe-location {
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+}
+
+/* Exit button styles */
+.exit-button-location{
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+}
+
+.exit-button-color {
+    background-color: rgb(241, 93, 93);
+}
+
+/* shake Animation */
+/* keyframes are used to create animations by describing each step */
+@keyframes shake-hover {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake-hover:hover {
+    animation: shake-hover 0.5s;                               /* Animation name and duration */
+    animation-iteration-count: infinite;                        /* Repeat animation infinitely */
+}
+
+@keyframes shake-click {
+    0% { transform: translate(15px, 15px) rotate(30deg); }
+    10% { transform: translate(-15px, -30px) rotate(-15deg); }
+    20% { transform: translate(-45px, 0px) rotate(15deg); }
+    30% { transform: translate(45px, 30px) rotate(30deg); }
+    40% { transform: translate(15px, -15px) rotate(15deg); }
+    50% { transform: translate(-15px, 30px) rotate(-15deg); }
+    60% { transform: translate(-45px, 30px) rotate(30deg); }
+    70% { transform: translate(45px, 30px) rotate(-15deg); }
+    80% { transform: translate(-15px, -15px) rotate(15deg); }
+    90% { transform: translate(15px, 30px) rotate(30deg); }
+    100% { transform: translate(15px, -30px) rotate(-15deg); }
+}
+
+.shake-click:active {
+    animation: shake-click 0.5s;
+    animation-iteration-count: infinite;
+}

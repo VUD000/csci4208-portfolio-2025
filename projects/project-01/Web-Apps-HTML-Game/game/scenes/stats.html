@@ -1,0 +1,46 @@
+<!-- A bit map will be to store info about cats that were found -->
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title> Cat Rescue </title>
+        <link rel="icon" href="./../assets/Favicon.png">
+        <link rel="stylesheet" href="./../styles/styles.css">
+    </head>
+    <body class="button-color-global">
+        <div>
+            Stats: <hr>
+            <table>
+                <tr>
+                    <th> &#9876;&#65039; </th> <!-- emoji: ⚔️ -->
+                    <th> &#128008; </th> <!-- emoji: 🐈 -->
+                <tr>
+                    <td id="ap">0</td>
+                    <td id="cats">0</td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            var queryString = new URLSearchParams(location.search);
+
+            // 21 cats in total. default to all 0s (not found) 
+            var catsBitArrayString = queryString.get("cats") || "00000000000000000000";
+
+            // Turn catsBitArrayString into a bit array
+            var catsBitArray = catsBitArrayString.split("").slice(0, 21).map(bit => parseInt(bit));
+
+            // Count number of 1's in bit array
+            var catsFound = catsBitArray.filter(bit => bit === 1).length;
+
+            // default to not evil (0)
+            var isEvil = queryString.get("evil") || "0";
+
+            var multiplier = isEvil === "1" ? 2 : 1;
+
+            // default to 0
+            var apGained = parseInt(queryString.get("ap")) || 0;
+
+            ap.innerText = (catsFound * multiplier);
+            cats.innerText = catsFound + "/21";
+        </script>
+    </body>
+</html>
