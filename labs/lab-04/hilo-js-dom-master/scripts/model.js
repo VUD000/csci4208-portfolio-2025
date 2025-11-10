@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const passcode = Math.floor( Math.random()*1000 );
 let tries = 10;
 const guess = new Guess();
@@ -43,4 +44,51 @@ function main(){
 }
 
 
+=======
+const passcode = Math.floor( Math.random()*1000 );
+let tries = 10;
+const guess = new Guess();
+let then = Date.now();
+let timeLeft = 30;
+let gameover = false;
+
+function guessNumber(guess){
+    tries--;
+    if ( guess == passcode ){
+        gameover = true;
+        printGameOver('WIN');
+    }
+    else{
+        giveClue(guess);
+    }
+}
+
+    function giveClue(guess){
+    if (guess > passcode){
+        printClue('HI', guess);
+    }
+    else{
+        printClue('LO', guess);
+    }
+}
+
+function main(){
+    const now = Date.now();
+    if (gameover){
+        return;
+    }
+    else if (timeLeft <= 0){
+        printGameOver('LOSE');
+    }
+    else if (now - then > 1000){
+        timeLeft--;
+        printDigits();
+        printAttemptsRemaining();
+        then = Date.now();
+    }
+    requestAnimationFrame(main);
+}
+
+
+>>>>>>> d5be727ff6af186f9874a2a1a9d62c0a29ff78d8
 main();
